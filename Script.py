@@ -199,7 +199,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION ="""<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/nawab_me0> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
+▫️<a href=https://t.me/nawab_me2> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
 ▫️<a href=https://t.me/nawabbotupdate> ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
