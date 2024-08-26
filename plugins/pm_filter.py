@@ -915,8 +915,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                              [
                               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                            ],[
-                              InlineKeyboardButton("MY best friend", url="{message.from_user.first_name}")
                              ]
                             ]
                         )
