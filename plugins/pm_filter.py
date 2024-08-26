@@ -1003,16 +1003,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id,
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False,
-            reply_markup=InlineKeyboardMarkup(
+            reply_markup=InlineKeyboardMarkup([
                 [
-                 [
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                ],[
-                  InlineKeyboardButton("MY best friend", url="{message.from_user.first_name}")
-                 ]
                 ]
-            )
+            ])
         )
     
     elif query.data == "pages":
