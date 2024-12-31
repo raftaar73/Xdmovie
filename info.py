@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24363060'))
 API_HASH = environ.get('API_HASH', '2403084c19a00e8f07874b15ba01557b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6102671698:AAHsbn8beQPu6mqDMhuLZRlO5YNCJuL3YEc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7711369498:AAH7wPiLPLvnD-9DvHTaU26oiuEe1ZZrK1o")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 400))
@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://xagixam878:xagixam878@cluster0.9zlrdbb.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "wayace5157")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jsu913:<o1Z0BRNM6yzDDuum>@cluster0.aqere.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "NBX")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
