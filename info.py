@@ -36,16 +36,16 @@ auth_channel = environ.get('AUTH_CHANNEL','-1002185652770')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001717761625')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002333390584')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fz0wt:zcFkRMhNdZh9Fs5x@cluster0.gwrit4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "NBX")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'nawab_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://raftaaryadav59:gx4JUXQx29SKk6M3@cluster0.exdgr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY',True))
@@ -58,13 +58,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nawab_me3')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nawabbotupdate')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/nawabbotupdate/15')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Wg3iCPzZmtI3Y2I9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+rKgZvTSM4VIwZjk9')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tutorialshortlinks/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ🥀')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001849404517'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/nawabbotupdate')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002502630338'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/PRINCESSUPDATE1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
